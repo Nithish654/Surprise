@@ -95,7 +95,7 @@ const App: React.FC = () => {
       {/* Footer Branding */}
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[60] pointer-events-none">
         <p className="text-rose-400 font-sans tracking-[0.2em] opacity-50 text-[10px] uppercase">
-          Magical Experience for Nandana ❤️
+          Nalla iruka Nanduuuu ❤️
         </p>
       </div>
     </div>
