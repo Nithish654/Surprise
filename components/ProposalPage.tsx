@@ -91,9 +91,9 @@ const ProposalPage: React.FC<ProposalPageProps> = ({ onYes }) => {
       <div className="mt-20 text-rose-400 font-sans text-center max-w-md h-8">
         {escapeCount > 0 && (
           <p className="italic text-lg animate-pulse transition-opacity duration-300">
-            {escapeCount < 5 ? "Wait, why are you moving away? 🥺" : 
-             escapeCount < 10 ? "You can't catch me! 🏃💨" : 
-             escapeCount < 15 ? "Are you still trying? 😂" :
+            {escapeCount < 5 ? "hey gunduu...edhuku No thoda pora? 🥺" : 
+             escapeCount < 10 ? "Nadakadhu ma! 🏃💨" : 
+             escapeCount < 15 ? "Podhum press 'yes' ammu😂" :
              "Just click YES already, Nandana! ❤️"}
           </p>
         )}
