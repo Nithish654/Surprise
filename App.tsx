@@ -62,7 +62,7 @@ const App: React.FC = () => {
       <audio 
         ref={audioRef}
         loop 
-        src={`${import.meta.env.BASE_URL}music/romantic-song.mp3`}
+        src="/Surprise/music/romantic-song.mp3"
         preload="auto"
       />
 
