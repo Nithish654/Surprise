@@ -7,6 +7,7 @@ import CelebrationOverlay from './components/CelebrationOverlay';
 import BackgroundParticles from './components/BackgroundParticles';
 import { MusicNoteIcon } from './constants';
 
+
 const App: React.FC = () => {
   const [appState, setAppState] = useState<AppState>(AppState.ENTRY);
   const [isMuted, setIsMuted] = useState(false);
@@ -61,7 +62,7 @@ const App: React.FC = () => {
       <audio 
         ref={audioRef}
         loop 
-        src="romantic-song.mp3" 
+        src={`${import.meta.env.BASE_URL}music/romantic-song.mp3`}
         preload="auto"
       />
 

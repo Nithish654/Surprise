@@ -18,7 +18,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter, appState }) => {
           Only Nandana is allowed to enter here ❤️
         </h1>
         <p className="text-rose-400 font-sans tracking-widest uppercase text-sm mb-12">
-          A world created for you
+          A Magical Surprise!!!
         </p>
       </div>
 
